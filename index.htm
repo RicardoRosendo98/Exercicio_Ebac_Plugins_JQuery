@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Cadastrar novo aluno</h1>
+        </header>
+        <form>
+            <div class="form-campo">
+                <input type="text" id="nome" placeholder="Nome" name="nome">
+            </div>
+            <div class="form-campo">
+                <input type="email" id="email" placeholder="E-mail" name="email">
+            </div>
+            <div class="form-campo">
+                <input type="tel" id="telefone" placeholder="Telefone" name="telefone">
+            </div>
+            <div class="form-campo">
+                <input type="cpf" id="cpf" placeholder="CPF" name="cpf">
+            </div>
+            <div class="form-campo">
+                <input type="text" id="endereco" placeholder="Endereço" name="endereco">
+            </div>
+            <div class="form-campo">
+                <input type="cep" id="cep" placeholder="CEP" name="cep">
+            </div>
+            <div class="form-campo">
+                <textarea id="mensagem" placeholder="Adicione um comentário ..." name="mensagem"></textarea>
+            </div>
+            <button type="submit">Adicionar +</button>
+        </form>
+    </div> 
+    <footer>
+        <div class="container container-flex">
+            <p>
+                &copy; Todo os direitos reservados 
+            </p>
+            <ul class="container-flex">
+                <li>
+                    <a href="https://github.com/RicardoRosendo98">Desenvolvido por Ricardo</a>
+                    <img src="./imagens/GitHub.png" alt="GitHub">
+                </li>
+            </ul>
+        </div>
+    </footer> 
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
